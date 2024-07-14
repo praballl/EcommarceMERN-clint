@@ -4,9 +4,9 @@ import {
   increment,
   incrementAsync,
   selectCount,
-} from './counterSlice';
+} from './productListSlice';
 
-export default function Counter() {
+export default function ProductList() {
   const count = useSelector(selectCount);
   const dispatch = useDispatch();
 ;
